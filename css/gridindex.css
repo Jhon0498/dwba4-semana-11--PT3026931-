@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  /*column-gap: 10px;
+  row-gap: 20px;*/
+  font-size: 20px;
+  row-gap: 100px;
+  text-align: center;
+}
+
+.grid-item img{
+  width: 400px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius:0px !important;
+
+  /*border: solid 1px black;*/
+}
+
